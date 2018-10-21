@@ -15,6 +15,9 @@
 		418D3A8C217B4E9B00E510C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418D3A8A217B4E9B00E510C2 /* LaunchScreen.storyboard */; };
 		418D3A97217B4E9B00E510C2 /* DevWorldNCRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D3A96217B4E9B00E510C2 /* DevWorldNCRTests.swift */; };
 		418D3AA2217B4E9B00E510C2 /* DevWorldNCRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D3AA1217B4E9B00E510C2 /* DevWorldNCRUITests.swift */; };
+		418D3AB1217B762B00E510C2 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D3AB0217B762B00E510C2 /* File.swift */; };
+		418D3AB4217C0A5D00E510C2 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D3AB3217C0A5D00E510C2 /* SideMenuVC.swift */; };
+		418D3AB6217C188900E510C2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D3AB5217C188900E510C2 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		418D3A9D217B4E9B00E510C2 /* DevWorldNCRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevWorldNCRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		418D3AA1217B4E9B00E510C2 /* DevWorldNCRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevWorldNCRUITests.swift; sourceTree = "<group>"; };
 		418D3AA3217B4E9B00E510C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418D3AB0217B762B00E510C2 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		418D3AB3217C0A5D00E510C2 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		418D3AB5217C188900E510C2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +105,16 @@
 		418D3A7D217B4E9900E510C2 /* DevWorldNCR */ = {
 			isa = PBXGroup;
 			children = (
+				418D3AAF217B760200E510C2 /* Models */,
 				418D3A7E217B4E9900E510C2 /* AppDelegate.swift */,
 				418D3A80217B4E9900E510C2 /* ViewController.swift */,
+				418D3AB3217C0A5D00E510C2 /* SideMenuVC.swift */,
 				418D3A82217B4E9900E510C2 /* Main.storyboard */,
 				418D3A88217B4E9B00E510C2 /* Assets.xcassets */,
 				418D3A8A217B4E9B00E510C2 /* LaunchScreen.storyboard */,
 				418D3A8D217B4E9B00E510C2 /* Info.plist */,
 				418D3A85217B4E9900E510C2 /* DevWorldNCR.xcdatamodeld */,
+				418D3AB5217C188900E510C2 /* MainViewController.swift */,
 			);
 			path = DevWorldNCR;
 			sourceTree = "<group>";
@@ -126,6 +135,14 @@
 				418D3AA3217B4E9B00E510C2 /* Info.plist */,
 			);
 			path = DevWorldNCRUITests;
+			sourceTree = "<group>";
+		};
+		418D3AAF217B760200E510C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				418D3AB0217B762B00E510C2 /* File.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				418D3A81217B4E9900E510C2 /* ViewController.swift in Sources */,
+				418D3AB1217B762B00E510C2 /* File.swift in Sources */,
 				418D3A87217B4E9900E510C2 /* DevWorldNCR.xcdatamodeld in Sources */,
+				418D3AB6217C188900E510C2 /* MainViewController.swift in Sources */,
 				418D3A7F217B4E9900E510C2 /* AppDelegate.swift in Sources */,
+				418D3AB4217C0A5D00E510C2 /* SideMenuVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
