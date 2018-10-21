@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
     
     @IBOutlet weak var sideMenuConstraint: NSLayoutConstraint!
     var sideMenuOpen = false
@@ -30,5 +30,6 @@ class ViewController: UIViewController {
         }
         UIView.animate(withDuration: 0.3){self.view.layoutIfNeeded()}
     }
+
 }
 
